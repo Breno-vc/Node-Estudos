@@ -1,6 +1,0 @@
-{
-    "*.ts": [
-        "biomejs 'src/**' --fix",
-        "git add"
-    ]
-}
