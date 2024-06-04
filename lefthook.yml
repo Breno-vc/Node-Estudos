@@ -36,9 +36,9 @@
 pre-push:
   commands:
     check:
-      glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
+      glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx}"
       run: npx @biomejs/biome check --no-errors-on-unmatched --files-ignore-unknown=true {push_files}
-      
+
 pre-commit:
   commands:
     check:
